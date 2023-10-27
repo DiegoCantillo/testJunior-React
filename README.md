@@ -24,4 +24,5 @@ INFORMES DURANTE EL DESARROLLO --> mediante el desarrollo del test.
                                 me fijé que si se estaba creando pero solo es una breve simulación, y todos se crean con id = 101; es decir solo es falcificado.
 
 
-        para la implementacion de redux me apoyé en la documetanción
+        para la implementacion de redux me apoyé en la documetanción  --> https://redux-toolkit.js.org/introduction/getting-started
+
