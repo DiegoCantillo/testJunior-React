@@ -22,8 +22,6 @@ const ListPublication = () => {
             .finally(() => setLoading(false))
     }, [])
 
-    const userId = useSelector((state) => state.user.userId)
-    console.log(userId);
 
     return (
         <div className='containerPublications' >
