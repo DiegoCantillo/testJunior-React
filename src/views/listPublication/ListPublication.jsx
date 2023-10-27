@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import '../style.css'
 import { getAllPublications } from '../../api/getAllPublications';
-import ModalCreatePublication from './ModalCreatePublication';
 import useToggleActive from '../../utils/hook/useToggleActive';
 import { Toaster, toast } from 'sonner';
 import { useSelector } from 'react-redux';
+import ModalCreatePublication from './ModalCreatePublication';
 
 const ListPublication = () => {
 

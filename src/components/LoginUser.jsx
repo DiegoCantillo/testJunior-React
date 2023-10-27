@@ -9,7 +9,7 @@ import { Toaster, toast } from 'sonner';
 
 const LoginUser = () => {
 
-    const [isActive, handleActive] = useToggleActive(false)
+    const [isActive, handleActive] = useToggleActive(true)
     const { handleSubmit, register } = useForm();
 
     const dispatch = useDispatch()

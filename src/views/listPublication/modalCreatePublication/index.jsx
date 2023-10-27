@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import useToggleActive from '../../../utils/hook/useToggleActive';
-import { set, useForm } from 'react-hook-form';
+import { useForm } from 'react-hook-form';
 import '../../../views/style.css'
 import { createPublication } from '../../../api/createPublication';
 import { useSelector } from 'react-redux';
