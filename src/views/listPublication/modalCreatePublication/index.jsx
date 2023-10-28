@@ -33,6 +33,8 @@ const ModalCreatePublication = ({ handleActive1 }) => {
                     console.log('Publicación exitosa', response.data);
                     setTimeout(() => {
                         handleActive1();
+                        const alertMessage = `Título: ${sentData.title}\nDescripción: ${sentData.body}`
+                        alert(alertMessage)
                     }, 2000);
                 }
             } catch (error) {
