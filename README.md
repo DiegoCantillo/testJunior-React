@@ -28,5 +28,5 @@ INFORMES DURANTE EL DESARROLLO --> mediante el desarrollo del test.
                                 es por esto que muestro la info de la publicación mediante un alert y no tomandola directamente la info de la request sino de la data del formulario
 
 
-        para la implementacion de redux me apoyé en la documetanción  --> https://redux-toolkit.js.org/introduction/getting-started
+        para la implementacion de redux me apoyé en la documetanción  --> https://redux-toolkit.js.org/introduction/getting-started 
 

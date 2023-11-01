@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../views/style.css'
 import LoginUser from '../../components/LoginUser';
-import { useSelector } from 'react-redux';
 
 const Home = () => {
 

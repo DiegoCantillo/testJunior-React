@@ -13,7 +13,6 @@ const LoginUser = () => {
     const { handleSubmit, register } = useForm();
 
     const dispatch = useDispatch()
-    const isLogin = useSelector((state) => state.user.isLogin);
 
     const Navigate = useNavigate()
 

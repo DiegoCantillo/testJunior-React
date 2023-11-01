@@ -33,7 +33,7 @@ const ModalCreatePublication = ({ handleActive1 }) => {
                     console.log('Publicación exitosa', response.data);
                     setTimeout(() => {
                         handleActive1();
-                        const alertMessage = `Título: ${sentData.title}\nDescripción: ${sentData.body}`
+                        const alertMessage = `Título: ${sentData.title} \n Descripción: ${sentData.body}`
                         alert(alertMessage)
                     }, 2000);
                 }
@@ -51,6 +51,8 @@ const ModalCreatePublication = ({ handleActive1 }) => {
 
     return (
         <div className='containerCreatePublication'>
+
+            {!isLogin && <h4>Procesando...</h4>}
 
             <h3>
                 Escribe tú publicaión

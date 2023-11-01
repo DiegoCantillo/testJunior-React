@@ -24,11 +24,11 @@ const Navbar = () => {
 
     return (
         <div className='navbar'>
-            <Link to={'/'}>
-                <h3>
-                    TEST REACT JUNIOR
-                </h3>
-            </Link>
+
+            <h3>
+                TEST REACT JUNIOR
+            </h3>
+
             <div className='profile'>
                 <div className='imgUser'>
                     <img src={!isLogin ? offUser : onUser} alt='imgProfile' />

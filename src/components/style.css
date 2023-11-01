@@ -42,14 +42,16 @@
     height: 100%;
     height: 30px;
     position: relative;
+    background: purple;
 }
 
 .cardForm form .inputContainer .containerBtn-input button{
     position: absolute;
     height: 100%;
     height: 35px;
+    top: 0;
     right: 0;
-    border: 0;
+    border: none;
     cursor: pointer;
     background-color: transparent;
 }
@@ -87,7 +89,6 @@
 .navbar h3{
     padding: 4px 7px;
     border: 2px solid black;
-    cursor: pointer;
 }
 
 .navbar .profile{
@@ -120,7 +121,7 @@
 
 .navbar .profile button{
     background-color: rgb(11, 169, 11);
-    width: 130px;
+    width: 150px;
     height: 40px;
     color: white;
     border-radius: 4px;
@@ -128,4 +129,5 @@
     color:  white;
     font-weight: 800;
     font-size: 16px;
+    cursor: pointer;
 }
